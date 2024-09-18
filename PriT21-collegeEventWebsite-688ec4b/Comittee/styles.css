@@ -7,7 +7,7 @@ body {
 }
 
 .container1 {
-    max-width: 1200px;
+    max-width: 90vw;
     margin: 0 auto;
     padding: 20px;
 }
@@ -149,4 +149,38 @@ header h1::after {
         font-size: 12px;
         padding: 8px 15px;
     }
+}
+
+
+.box{
+
+    width: 17vw;
+    height: 17vh;
+    border: 1px solid red;
+    margin: 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.box-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 3vh 0;
+    
+}
+.head1{
+    color: black;
+    font-size: 30px;
+    margin: 2vh;
+}
+.head2{
+    color: black;
+    height: 5vh;
+    margin-top: 1.5vh;
+    font-size: 18px;
 }
