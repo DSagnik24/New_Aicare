@@ -61,7 +61,7 @@ header h1::after {
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    max-width: 1000px; /* Adjust this value to decrease the width */
+    max-width: 1200px; /* Adjust this value to decrease the width */
     margin: 0 auto 200px auto; /* Center the navbar */
     position: relative;
     top: 50px; /* Adjust the value to move the navbar down */
@@ -156,13 +156,14 @@ header h1::after {
 
     width: 17vw;
     height: 17vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    background-color: rgba(62, 96, 233, 0.2);
     
 }
 .box-row{
@@ -175,12 +176,18 @@ header h1::after {
 }
 .head1{
     color: black;
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
     margin: 2vh;
 }
 .head2{
     color: black;
     height: 5vh;
     margin-top: 1.5vh;
-    font-size: 18px;
+    font-size: 16px;
 }
+
+
+
+
+
